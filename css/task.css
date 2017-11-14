@@ -5,11 +5,8 @@
     border: 1px solid red;
     padding: 15px;
 }
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
+
+
 [class*="col-"] {
     float: left;
     padding: 15px;
@@ -39,9 +36,10 @@
     position:fixed;
     left:0;
     top:0;
-    background-color: rgb(20, 165, 28);
+    background-color: rgb(83, 220, 238);
     height:100%;
     width:12%;
+    overflow:hidden;
 
 }
 .container{
@@ -69,7 +67,7 @@
 }
 .topnav {
     overflow: hidden;
-    background-color: rgb(116, 184, 201);
+    background-color: rgb(35, 88, 88);
 }
 
 /* Style the topnav links */
@@ -78,23 +76,26 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
+    
     padding: 20px 15px;
     text-decoration: none;
 }
 
 /* Change color on hover */
 .topnav a:hover {
-    background-color: rgb(20, 12, 12);
-    color: rgb(120, 192, 197);
+    background-color: rgb(41, 24, 17);
+    color: rgb(122, 107, 207);
 }
 .row1{
-    width:100%;
-    height:250px;
-    margin:0px 0px 0px 0px;
-    padding:0px 0px 0px 0px;
-    margin-left:0px;
-    
+   
+     width:100%;
+    height: 200px;
+    margin: 0px 0px 0px 0px;
+        
+    padding: 0px 0px 0px 0px;
+    margin-left: -12px;
 }
+
 .row2{
     width: 100%;
     height: auto;
@@ -113,7 +114,7 @@
     padding: 10px 5px;
     border-radius: 30px;
     border: 1px solid;
-    height: 40px;
+    height: 40px;  box-shadow: 10px 10px 5px #888888;
 
 }
 .col-1 {
@@ -137,10 +138,12 @@
 
 .box{
     
-    border: 1.5px solid black;
-    height: 245px;
-    width: 400px;
-    margin-left: 103px;
+    box-shadow: 10px 10px 5px #888888;
+    border:1px solid black;
+    border-radius: 10px 10px;
+    height: auto;
+    width: 100%;
+    margin-left: 22px;
     margin-top: 55px;
     padding: 10px 10px 10px 10px;
 
@@ -148,22 +151,24 @@
 #text
 {
     margin:2px 2px 2px 2px;
-    font-style:verdana;
+    font-style:courier;
+    box-shadow: 10px 10px 5px #888888;
 }
 #post img{
     
-        height: 100px;
+        height: 150px;
         padding:10px;
         float:left;
     
 }
 .smallbx{
     
-        border: 1.5px solid black;
-            
-        height: 45px;
-        width: 400px;
-        margin-left: 103px;
+        border:none;
+        box-shadow: 10px 10px 5px #888888;
+        border-radius:10px 10px;
+        height: auto;
+        width: 100%;
+        margin-left: 22px;
         margin-top: 0px;
         padding: 0px 0px 0px 0px;
         border-top: none;
@@ -175,8 +180,8 @@ padding:10px;
 size:40px;
     
 }
-.input{
-    width: 51%;
+.input1{
+    width:100%;
     padding: 10px;
     border-radius: none;
     border: 1px solid;
@@ -193,6 +198,26 @@ size:40px;
 padding:20px 15px;
 size:50px; 
 }
+.fa3{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+padding:20px 15px;
+size:50px; 
+color:rgb(0, 174, 255)  
+}
+.col-5{
+    width: 120px;
+    margin-left: 183%;
+    height:100px;
+    display:inline-block;
+} 
+.col-6{
+    width: 90px;
+    margin-left: 183%;
+    height:100px;
+}   
+ 
+
 
 
 
